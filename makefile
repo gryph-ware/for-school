@@ -1,7 +1,7 @@
 CC = clang
 CFLAGS = -Wall -Wextra -g
 
-SRC = bai2_dequy
+SRC = bai3_dequy
 OUT = output
 
 run: build
