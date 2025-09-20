@@ -1,7 +1,7 @@
 CC = clang
 CFLAGS = -Wall -Wextra -g
 
-SRC = bai3_dequy
+SRC = bai4_dequy_2
 OUT = output
 
 run: build
@@ -11,4 +11,4 @@ build:
 	$(CC) $(CFLAGS) $(SRC).c -o $(OUT)
 
 clean:
-	rm -f $(OUT)
+	rm -f $(OUT) *~
